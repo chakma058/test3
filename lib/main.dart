@@ -68,7 +68,7 @@ class WeatherPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
-              title: Text(weatherData[index]['city']),
+              title: Text('City: ${weatherData[index]['city']}'),
               subtitle: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
